@@ -174,3 +174,22 @@ img {
 .inner-about h3 {
     margin-bottom: 40px;
 }
+
+.focus-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 137px;
+
+}
+
+.inner-focus-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.inner-focus-section a.btn {
+    margin-bottom: 0;
+    text-decoration: none;
+}
