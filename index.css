@@ -14,6 +14,10 @@
     margin: 0 auto;
 }
 
+body {
+    background-color: #fafaff;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -48,6 +52,10 @@ button {
     font-style: normal;
 }
 
+button:hover {
+    background: #8d89f5;
+}
+
 .btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
@@ -56,8 +64,6 @@ button {
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
-
-
 }
 
 .banner {
@@ -175,11 +181,75 @@ img {
     margin-bottom: 40px;
 }
 
+.testimonials-section {
+    margin-top: 137px;
+}
+
+.testimonials-content {
+    text-align: center;
+}
+
+.testimonials-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #2d3748;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial {
+    background: #f7fafc;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.stars {
+    color: #fbbf24;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial h4 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #2d3748;
+    font-size: 26px;
+}
+
+.testimonial p {
+    color: #718096;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reviewer-name {
+    font-size: 0.9rem;
+    color: #718096;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 .focus-section {
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 137px;
+}
 
+.focus-section p {
+    margin: 0;
 }
 
 .inner-focus-section {
@@ -191,5 +261,93 @@ img {
 
 .inner-focus-section a.btn {
     margin-bottom: 0;
+    text-decoration: none;
+}
+
+.contact-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 137px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact-text h2 {
+    font-size: 90px;
+}
+
+.contact-form {
+    padding: 2rem;
+    border-radius: 12px;
+    width: 497px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 0;
+    padding-left: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    height: 120px;
+}
+
+.btn-full {
+    width: 100%;
+    padding: 19px 0;
+    margin-bottom: 0px;
+}
+
+.footer {
+    background: #ffffff;
+    text-align: center;
+    padding: 103px 0;
+}
+
+.footer .container {
+    width: 531px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 100px;
+    margin-bottom: 1rem;
+    color: #6366f1;
+}
+
+.footer p {
+    color: #a0aec0;
+    margin-bottom: 2rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #a0aec0;
     text-decoration: none;
 }
